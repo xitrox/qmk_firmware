@@ -4,7 +4,7 @@
         "pid": "0x0001",
         "device_version": "0.0.1"
     },
-    "processor": "atmega32u4",
+    "processor": "RP2040",
     "features": {
         "rgb_matrix": true
     },
@@ -48,7 +48,7 @@
     "ws2812": {
         "pin": "D3"
     },
-    "bootloader": "atmel-dfu",
+    "bootloader": "rp2040",
     "layout_aliases": {
         "LAYOUT": "LAYOUT_split_3x6_3"
     },

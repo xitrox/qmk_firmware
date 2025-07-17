@@ -1,0 +1,4 @@
+# rules.mk for RGB Matrix
+RGB_MATRIX_ENABLE = yes
+RBG_MATRIX_TIMEOUT_ENABLE = yes
+COMBO_ENABLE = yes
