@@ -69,9 +69,14 @@ void keyboard_post_init_user(void) {
     rgb_matrix_mode_noeeprom(RGB_MATRIX_SOLID_COLOR);
 }
 
-const uint16_t PROGMEM jk_combo[] = {KC_J, KC_K, COMBO_END};
+const uint16_t PROGMEM jk_combo[] = {LSFT_T(KC_J), KC_K, COMBO_END};
+const uint16_t PROGMEM kl_combo[] = {KC_K, KC_L, COMBO_END};
+const uint16_t PROGMEM qw_combo[] = {KC_Q, KC_W, COMBO_END};
+
 combo_t key_combos[COMBO_COUNT] = {
     COMBO(jk_combo, KC_ESC),
+    COMBO(kl_combo, KC_QUOT),
+    COMBO(qw_combo, KC_NUHS),
 };
 
 // RGB Matrix layer indication
